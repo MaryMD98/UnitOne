@@ -1,0 +1,96 @@
+/* fixed header of company*/
+header{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100px;
+    border-bottom: 10px solid rgb(98, 0, 128);;
+    background-color: rgb(207, 166, 219);
+}
+
+/* everything to be aligned to center */
+h1,h2,h3,h4,h5,p {
+  text-align: center;
+}
+
+/* syntax used to only change the h1 inside header of body tag */
+body > header > h1 {
+  text-align:left;
+}
+
+/* container for getting visitor info  */
+.container {
+  width: 300px;
+  height: 300px;
+  margin: 20px auto;
+  border: 15px solid  rgb(98, 0, 128);
+}
+
+/* need space from the header to display company name title */
+.comp-name{
+  padding-top: 50px;
+  font-size:20px;
+}
+
+/*boxes next to header*/
+li {
+  list-style-type: none;
+  display:inline;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+
+/* to have the hiperlinks aligned to the right of page */
+.getinput {
+  text-align:right;
+}
+
+/* to have the hyperlinks in a diferent color then the standard blue */
+a {
+  text-decoration: none;
+  color: #6c09dd;
+}
+
+/* image resized to fit on screen, and tp have padding to be centered */
+img {
+    display: block;
+    padding:10px;
+    background-color: rgb(98, 0, 128);
+    margin: 20px auto;
+    height: 400px;
+    width: 300px;
+  }
+
+/* padding at the beginning and end of the main body of structure */
+main {
+    padding: 60px 0;
+}
+
+/* font on webpage is the same */
+*{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;}
+
+/* fixed footer of company*/
+footer{
+  height: 40px;
+  width: 100%;
+  border-bottom: 10px solid #4F4846;
+  background-color: rgb(207, 166, 219);
+  margin-top: 0;
+  bottom: 0; 
+  color: #7100f3;
+ }
+
+ /* class to have all text aligned to center */
+.texttocenter{
+  text-align: center;
+}
+
+/* button tag updated to show color and size of button, background color and text color */
+button {
+  height: 40px;
+  width: 120px;
+  background-color: #360a7e;
+  color: #FDF8F5;
+}
